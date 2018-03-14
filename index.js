@@ -7,7 +7,6 @@ class Driver {
   }
 
   startDate() {
-    debugger;
     return new Date(this.date)
   }
 
