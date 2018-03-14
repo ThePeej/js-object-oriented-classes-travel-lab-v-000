@@ -24,8 +24,8 @@ class Route {
 // let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
   blocksTravelled(){
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
-    let horizontal = parseInt(this.end.vertical) - parseInt(this.start.vertical);
-    let vertical = 0;
+    let vertical = parseInt(this.end.vertical) - parseInt(this.start.vertical);
+    let horizontal = 0;
     debugger;
     return horizontal + vertical
   }
