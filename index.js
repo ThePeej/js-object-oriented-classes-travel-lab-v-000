@@ -26,7 +26,6 @@ class Route {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
     let vertical = parseInt(this.end.vertical) - parseInt(this.start.vertical);
     let horizontal = eastWest.indexOf(this.end.horizontal) - eastWest.indexOf(this.start.horizontal);
-    debugger;
     return horizontal + vertical
   }
 
