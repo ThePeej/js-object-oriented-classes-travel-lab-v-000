@@ -35,9 +35,9 @@ class Route {
     // 3 blocks per minute in off-peak hours
     // 2 blocks per minute in peak hours
     if (peakHours) {
-      return 2 * this.blocksTravelled()
+      return this.blocksTravelled()/2
     } else {
-      return 3 * this.blocksTravelled()
+      return this.blocksTravelled()/3
     }
   }
 }
