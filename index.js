@@ -6,6 +6,8 @@ class Driver (name, date) {
     this.date = date
   }
 
+  startDate(){
+    
+  }
 
-  
 }
