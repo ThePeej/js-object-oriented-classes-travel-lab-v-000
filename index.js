@@ -1,5 +1,5 @@
 
-class Driver (name, date) {
+class Driver {
 
   construct(name, date) {
     this.name = name
@@ -11,7 +11,7 @@ class Driver (name, date) {
   }
 
   yearsExperienceFromBeginningOf(){
-    
+
   }
 
 }
