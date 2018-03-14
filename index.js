@@ -34,10 +34,10 @@ class Route {
     // Returns number of minutes estimated for trip
     // 3 blocks per minute in off-peak hours
     // 2 blocks per minute in peak hours
-    if (peakHours?) {
-      return 2 * this.blocksTravelled()
-    } else {
-      return 3 * this.blocksTravelled()
-    }
+    // if (peakHours?) {
+    //   return 2 * this.blocksTravelled()
+    // } else {
+    //   return 3 * this.blocksTravelled()
+    // }
   }
 }
